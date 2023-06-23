@@ -1,7 +1,10 @@
 html {
-    /* make root font size / rem == 10px */
-    font-size: 62.5%; 
+  /* make root font size / rem == 10px */
+  font-size: 62.5%;
 }
-body {
-    background: gold;
+:root {
+    --color-primary: #2584ff;
+    --color-secondary: #00d9ff;
+    --color-accent: #ff3400;
+    --color-body: #918ca4;
 }
