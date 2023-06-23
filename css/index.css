@@ -1,0 +1,7 @@
+html {
+    /* make root font size / rem == 10px */
+    font-size: 62.5%; 
+}
+body {
+    background: gold;
+}
