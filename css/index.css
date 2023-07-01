@@ -374,7 +374,7 @@ a {
   margin: 0 2rem;
 }
 .media__image {
-  margin-top: 1rem;
+  margin: 1rem;
 }
 
 /* * Quote */
@@ -723,9 +723,22 @@ a {
   }
 }
 
-@media screen and (min-width: 768px){
-    .plan {
-        width: 65%;
-      }   
+@media screen and (min-width: 768px) {
+  .plan {
+    width: 65%;
+  }
 }
 
+/* * Features */
+
+.features .media {
+  flex-direction: column;
+}
+
+.features > article {
+  margin-bottom: 10rem;
+}
+
+.features icon {
+  fill: var(--color-primary);
+}
