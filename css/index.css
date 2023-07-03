@@ -12,6 +12,7 @@
   --color-border: #ccc;
   --border-radius: 30px;
 }
+
 *,
 *::after,
 *::before {
@@ -724,7 +725,7 @@ a {
 }
 
 .plan-popular:hover {
-    transform: scale(1.15);
+  transform: scale(1.15);
 }
 
 @media screen and (min-width: 1024px) {
@@ -760,6 +761,12 @@ a {
 
 .features icon {
   fill: var(--color-primary);
+}
+
+@media screen and (min-width: 768px) {
+  .feature:nth-of-type(even) .feature__content{
+    order: 2;
+  }
 }
 
 /* * ShowCase */
