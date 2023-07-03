@@ -767,6 +767,11 @@ a {
   .feature:nth-of-type(even) .feature__content{
     order: 2;
   }
+
+  .features .media {
+    flex-direction: row;
+  }
+
 }
 
 /* * ShowCase */
