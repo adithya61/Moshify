@@ -625,7 +625,7 @@ a {
 
 .nav__toggler {
   opacity: 0.5;
-  transition: border-shadow 0.15s;
+  transition: box-shadow 0.15s;
   cursor: pointer;
 }
 
@@ -720,7 +720,11 @@ a {
 
 .plan:hover {
   transform: scale(1.05);
-  transition: transform 0.3s ease-out;
+  transition: transform 0.3s ease-in;
+}
+
+.plan-popular:hover {
+    transform: scale(1.15);
 }
 
 @media screen and (min-width: 1024px) {
@@ -734,7 +738,7 @@ a {
   }
 
   .plan-popular {
-    scale: 1.1;
+    transform: scale(1.1);
   }
 }
 
@@ -779,7 +783,7 @@ a {
 
 .footer {
   background: #232323;
-  transition: coolor 0.3s;
+  transition: color 0.3s;
 }
 
 .footer a {
