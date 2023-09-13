@@ -2,7 +2,7 @@
 
 ## Static webpage Moshify.
 
-Hosted Live [here](https://main--stellular-platypus-3accab.netlify.app/)
+Hosted Live [here](https://moshify-web-project.netlify.app/)
 
 
 ## Screenshots
